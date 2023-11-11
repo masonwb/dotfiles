@@ -26,6 +26,6 @@ export PATH CODER_NAME PS1
 alias c='clear'
 alias k='kubectl'
 alias code='code-server'
-alias profile='code ~/.bashrc'
-alias sprofile='source ~/.bashrc'
+alias profile='code ~/.bash_profile'
+alias sprofile='source ~/.bash_profile'
 alias updatedots='coder dotfiles -y https://github.com/masonwb/dotfiles'
