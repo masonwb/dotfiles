@@ -18,9 +18,10 @@ fi
 # User specific environment and startup programs
 
 PATH=$PATH:$HOME/.local/bin:$HOME/bin:/usr/local/sbin:/usr/local/bin
-PS1="\[\033[31m\]\u@\h \[\033[33m\]\w\[\033[32m\]\$(__git_ps1)\[\033[00m\] > "
+CODER_NAME="${CODER_USER_USERNAME}-${CODER_WORKSPACE_NAME}"
+PS1="\[\033[31m\]\u@$CODER_NAME \[\033[33m\]\w\[\033[32m\]\$(__git_ps1)\[\033[00m\] > "
 
-export PATH PS1
+export PATH CODER_NAME PS1
 
 alias c='clear'
 alias k='kubectl'
