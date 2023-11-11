@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	br = branch
+[user]
+	name = Mason
+[committer]
+	name = Mason
+[init]
+	defaultBranch = main
