@@ -31,3 +31,6 @@ alias sprofile='source ~/.bash_profile'
 alias dev='cd ~/Development/git'
 alias certs='cd ~/Development/certs'
 alias updatedots='coder dotfiles -y https://github.com/masonwb/dotfiles'
+
+[ -s "~/.nvm/nvm.sh" ] && . ~/.nvm/nvm.sh  # This loads nvm
+[ -s "~/.nvm/bash_completion" ] && . ~/.nvm/bash_completion  # This loads nvm bash_completion
